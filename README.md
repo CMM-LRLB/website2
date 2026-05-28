@@ -95,7 +95,6 @@ Work through this after you fork:
 - [ ] Fix the skill percentages in `skills.html`
 - [ ] Add your actual education and experience in `resume.html`
 - [ ] Update GitHub, LinkedIn, and email links in `contact.html`
-- [ ] Sign up at [formspree.io](https://formspree.io), get a form ID, and paste it into `contact.html`
 - [ ] Add a real `resume.pdf` and link it in `resume.html`
 - [ ] Pick a colour — change `--accent` in `style.css`
 

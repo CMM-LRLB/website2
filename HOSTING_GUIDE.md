@@ -216,33 +216,7 @@ Or: just use the template file directly as your index page by renaming it. In yo
 
 ---
 
-## Part 9 — Activate the Contact Form
-
-The contact form uses a free service called Formspree. Without this step, the form shows up but doesn't actually send you anything.
-
-1. Go to **formspree.io** and sign up for a free account
-2. Click **New Form**
-3. Give it a name (e.g., "Portfolio Contact"), enter your email, and click **Create Form**
-4. You'll see a form ID — it looks like `xbjnkqwz`
-5. In your `contact.html`, find this line:
-
-```html
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-```
-
-6. Replace `YOUR_FORM_ID` with your actual ID:
-
-```html
-<form action="https://formspree.io/f/xbjnkqwz" method="POST">
-```
-
-7. Commit the change
-
-Now when someone fills in the form and submits, Formspree sends their message to your email.
-
----
-
-## Part 10 — Rename Your Live URL (Optional)
+## Part 9 — Rename Your Live URL (Optional)
 
 Right now your URL ends in `/undergrad-eportfolio-tutorial/`. You can shorten this.
 
