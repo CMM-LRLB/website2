@@ -143,16 +143,39 @@ The Download button on your resume page is already linked to `resume.pdf` — it
 
 ## Part 8 — Use a Different Design (Optional)
 
-There are 6 pre-made designs in the `templates/` folder. To see them, open `templates/index.html`.
+The default template has 5 separate pages (Home, Projects, Skills, Resume, Contact). The themed templates work differently — each one is a **single page** with everything on it, and the menu scrolls you to different sections instead of going to a new page.
 
-To use one as your main page:
+There are 6 designs, one for each field. To see them all, open `templates/index.html` in your browser.
 
-1. Open the template you want (e.g. `template-cs.html`)
-2. Click the pencil icon to edit it
-3. Press **Ctrl+A** (or **Cmd+A** on Mac) to select all the text, then copy it
-4. Go back to your root folder and open `index.html`
-5. Click the pencil icon, select all, and paste the template over it
+### Step 1 — Pick a template
+
+| File | For |
+|------|-----|
+| `template-cs.html` | Computer Science / Software Engineering |
+| `template-design.html` | Design / UX / Creative Arts |
+| `template-data.html` | Data Science / Machine Learning |
+| `template-bio.html` | Biology / Life Sciences / Pre-Med |
+| `template-business.html` | Business / Finance / Consulting |
+| `template-arch.html` | Architecture / Civil / Urban Design |
+
+Click the file to open it and see what it looks like before you commit to it.
+
+### Step 2 — Replace your index.html with the template
+
+1. In your GitHub repo, click on the template file you want (e.g. `template-cs.html`)
+2. Click the pencil icon to edit
+3. Press **Ctrl+A** (Windows) or **Cmd+A** (Mac) to select everything, then copy
+4. Go back to the root of your repo and open `index.html`
+5. Click the pencil icon, press Ctrl+A / Cmd+A to select all, then paste
 6. Click **Commit changes**
+
+### Step 3 — Edit the placeholder text
+
+The template has placeholder text just like the default — things like "Your Name", "Your University", "company name". Replace these with your real information.
+
+### Note about the other HTML files
+
+When using a themed template, you only need `index.html`. The files `projects.html`, `skills.html`, `resume.html`, and `contact.html` are no longer used — everything is inside `index.html`. You can ignore them or delete them.
 
 ---
 

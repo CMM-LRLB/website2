@@ -50,7 +50,9 @@ For photos, resume upload, and everything else, read [`HOSTING_GUIDE.md`](HOSTIN
 
 ## The 6 themes
 
-There are 6 pre-made designs for different fields. Open `templates/index.html` to see them all side by side.
+There are 6 pre-made designs for different fields. Each one is a **complete single-page portfolio** — everything (projects, skills, experience, contact) is on one page, and the menu scrolls you to each section.
+
+Open `templates/index.html` to preview all 6 side by side before picking one.
 
 | Template file | Best for |
 |---------------|----------|
@@ -61,7 +63,14 @@ There are 6 pre-made designs for different fields. Open `templates/index.html` t
 | `template-business.html` | Business / Finance / Consulting |
 | `template-arch.html` | Architecture / Civil / Urban Design |
 
-To use one, copy its contents into `index.html` and replace the placeholder text.
+**To use a template:**
+1. Open the template file on GitHub and click the pencil icon to edit
+2. Press Ctrl+A (or Cmd+A on Mac) to select all, then copy
+3. Open `index.html`, select all, paste, and commit
+
+That's it — the template replaces `index.html` and contains everything. The other page files (`projects.html`, `skills.html`, etc.) are no longer needed when using a template.
+
+For full instructions see [Part 8 of HOSTING_GUIDE.md](HOSTING_GUIDE.md).
 
 ---
 
