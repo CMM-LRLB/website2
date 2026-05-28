@@ -19,7 +19,25 @@ A complete, zero-dependency HTML/CSS portfolio template for undergrad students �
 | `resume.html` | CSS-only timeline — education, experience, achievements |
 | `contact.html` | Contact form (Formspree-ready) + social links |
 | `css/style.css` | Single shared stylesheet — one variable change rethemes everything |
+| `AI_PROMPTS.md` | Ready-to-use AI prompts for building and customising your portfolio |
 | `generate_qr.py` | Regenerates `qr-code.png` if you change the URL |
+
+---
+
+## AI Prompts
+
+**Not sure how to write a section? Just ask an AI.**
+
+[`AI_PROMPTS.md`](AI_PROMPTS.md) has 30+ copy-paste prompts for ChatGPT, Claude, Gemini, or any AI assistant — covering everything from generating your bio to adding dark mode, animations, and JavaScript features.
+
+Categories:
+- Getting started & personalising the template
+- Writing hero bio, project descriptions, resume bullet points
+- Adding new sections (blog, certifications, open source)
+- Changing colours, fonts, and themes
+- Dark mode, animations, hover effects
+- Debugging layout and contrast issues
+- Going further with vanilla JavaScript
 
 ---
 
@@ -49,16 +67,16 @@ That's it — every button, link, progress bar and highlight updates automatical
 
 ---
 
-## Talk Outline (45 min)
+## Talk Outline
 
-| # | Topic | Time |
-|---|-------|------|
-| 1 | Why an e-portfolio? Jobs, internships, grad school | 5 min |
-| 2 | What pages to include and what content goes where | 5 min |
-| 3 | HTML/CSS quick refresher — structure vs style | 8 min |
-| 4 | Live walkthrough of this template | 12 min |
-| 5 | GitHub Pages setup — fork → Settings → live URL | 10 min |
-| 6 | Customisation tips — colours, fonts, projects | 5 min |
+| # | Topic |
+|---|-------|
+| 1 | Why an e-portfolio? Jobs, internships, grad school |
+| 2 | What pages to include and what content goes where |
+| 3 | HTML/CSS quick refresher — structure vs style |
+| 4 | Live walkthrough of this template |
+| 5 | GitHub Pages setup — fork → Settings → live URL |
+| 6 | Customisation tips — colours, fonts, projects |
 
 ---
 
