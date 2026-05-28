@@ -56,7 +56,7 @@ Once you are in, leave that tab open.
 
 ## Part 3 — Get Your Own Copy of This Project
 
-You need to make your own copy so you can edit it. This is called "forking."
+You need to make your own copy so you can edit it. This is called "forking." Once you fork, the project belongs to your account — your name will appear in the link, not AVHBAC's.
 
 1. Make sure you are logged into GitHub
 2. Go to the project page: `https://github.com/AVHBAC/undergrad-eportfolio-tutorial`
@@ -64,6 +64,8 @@ You need to make your own copy so you can edit it. This is called "forking."
 4. Leave the name as it is and click **Create fork**
 
 You now have your own copy at `https://github.com/YOUR-USERNAME/undergrad-eportfolio-tutorial`
+
+> **Note:** From this point on, you are working in your own copy. Any changes you make do not affect the original.
 
 ---
 
@@ -81,6 +83,8 @@ This step tells GitHub to publish your files as a website.
 Wait about 60 seconds, then refresh the page. You will see:
 
 > Your site is live at `https://your-username.github.io/undergrad-eportfolio-tutorial/`
+
+The link will have **your GitHub username** in it — not AVHBAC. That is how you know it is yours.
 
 Click that link — your portfolio is now on the internet.
 

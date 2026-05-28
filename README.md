@@ -40,6 +40,7 @@ In your copy, go to **Settings → Pages → Source → main branch → Save**. 
 **Step 4 — Find your live link**
 After saving, refresh the Settings → Pages screen. Your link will appear — it looks like:
 `https://your-username.github.io/undergrad-eportfolio-tutorial/`
+Your GitHub username will be in the link. If it still says `avhbac`, you are looking at the original repo — make sure you are in your forked copy (your username should appear at the top of the page).
 
 **Step 5 — Edit the files to make it yours**
 Click on any file (start with `index.html`), click the pencil icon to edit, replace the placeholder text, and click **Commit changes**. Your live site updates within a minute.
